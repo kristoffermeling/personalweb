@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creative CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/aos.css', _external=True, _scheme='https') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css', _external=True, _scheme='https') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css', _external=True, _scheme='https') }}" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url({{ url_for('static', filename='/images/20230323_183812.jpg', _external=True, _scheme='https') }})"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="{{ url_for('static', filename='/images/face_kris.jpg', _external=True, _scheme='https') }}" alt="Image"/></a></div>
+          <div class="h2 title">Kristoffer Meling</div>
+          <p class="category text-white">Engineer, Freelance Consulting</p><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/kristoffer-meling-621232b4" rel="tooltip" title="Add me on Linkedin"><i class="fa fa-linkedin"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>Hello! I am Kristoffer Meling. I hold an Engineering degree from UIS, and in my spare time i like to learn new things and do small engineering, IT and software projects.</p>
+            <p>I made this website because I wanted to gain some surface level experience in web development, IT and deployment of web-servers.</p>
+            <p>This website is made using a template from templateflip.com, and the backend is done using Flask in python. </p>
+            <p>Deploying the website is done using a variety of different sw, such as proxmox(for virtual enviroments), pfsense(firewall), ubuntu server, docker and nginx(proxy manager). </p>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">English, Norwegian</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Education:</strong></div>
+              <div class="col-sm-8">Vocational high school for electrician with math and physics, and master in petroleum technology</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Interests:</strong></div>
+              <div class="col-sm-8">Playing multiplayer games with friends, watching tons of youtube</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Personal Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CTRL+C -> CTRL+V</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span class="progress-value">100%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Chat GPT</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span class="progress-value">100%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">plugging in a usb on first try</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div><span class="progress-value">0%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">giving 110%</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90.9090909090%;"></div><span class="progress-value">90.9090909090%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">guessing a coin toss correctly</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Pleasure</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div><span class="progress-value">5%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Pain</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div><span class="progress-value">50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Reason to remember the name</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span class="progress-value">100%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/ezgif.com-video-to-gif.gif', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Deadliest catch</div>
+                      <p>Rov work</p>
+                    </figcaption>
+                  </figure></a></div>
+
+            </div>
+            <div class="col-md-6">
+
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/20211118_210151.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Assembly of ROV</div>
+                      <p>Rov work</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/20211113_192047.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Riding a camel</div>
+                      <p>not CGI</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/20220606_111450.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Eating durian</div>
+                      <p>Extreme sports</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/20221212_105223.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Traveling with friends</div>
+                      <p>Monkey business</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="{{ url_for('static', filename='/images/20220813_090538.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Dessert safari</div>
+                      <p></p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>November 2023 - Present</p>
+            <div class="h5">TechnipFMC</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Technical and Metering Service Engineer </div>
+            <p>Technical support for multiphase flowmeters.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>June 2021 - Present</p>
+            <div class="h5">ROV and Robotics consulting</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Freelance Consultant</div>
+            <p>Assembly and testing of Blue Robotics ROV system.</p>
+            <p>Sporadic technical support related to the system or sensors/manipulator on ROV.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>May 2023 - November 2023</p>
+            <div class="h5">Kongsberg Digital</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Field Service Engineer</div>
+            <p>Deploying Sitecom and SDP software solutions for monitoring of drilling operations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>June 2019 - May 2023</p>
+            <div class="h5">TechnipFMC</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Service Engineer</div>
+            <p>• Service and commissioning of MPM Topside and Subsea meters.</p>
+            <p>• On-site maintenance, calibration, configuration and repairs of MPM meters offshore and onshore. </p>
+            <p>• Extensive worldwide traveling. </p>
+            <p>• Troubleshooting, faultfinding and optimizing flow calculation from meter.</p>
+            <p>• Performing measurement analysis. PVTSim and Multiflash calculations.</p>
+            <p>• Multiphase metering.</p>
+            <p>• Providing training for offshore operators and onshore production/reservoir/operation engineers on software and hardware technologies and measurement concepts utilized by MPM meter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2016 - 2018</p>
+            <div class="h5">Master's Degree</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Master's degree in Petroleum Engineering</div>
+            <p class="category">University of Stavanger</p>
+            <p>Specialization in drilling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2013 - 2016</p>
+            <div class="h5">Bachelor's Degree</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Bachelor's degree in Petroleum Engineering</div>
+            <p class="category">University of Computer Science</p>
+            <p>Specialization in drilling.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2009 - 2012</p>
+            <div class="h5">High School</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Electrician school with physics and mathematics</div>
+            <p class="category">Randaberg vgs</p>
+            <p>Study program called TAF; vocational education with math and physics required for engineering studies completed over 3 years. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="{{ url_for('static', filename='/images/openAI-chat-gpt-1.jpg', _external=True, _scheme='https') }}" alt="Image"/>
+                <div class="h5 pt-2">Chat GPT</div>
+                <p class="category">internet robot</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Kristoffer Meling is a highly skilled Service Engineer with a proven track record of success in the oil and gas industry. With over 3 years of experience working at TechnipFMC, he is an expert in commissioning, maintenance, and troubleshooting of MPM Topside and Subsea meters. In addition to his role at TechnipFMC, Kristoffer has also worked as a ROV and Robotics consultant, providing assembly, testing, and technical support for system operations and ROV sensors/manipulator. He holds a Master's Degree in Petroleum Engineering from the University of Stavanger, and has experience in procurement packages, project management, and technical evaluation of bids. With a strong background in engineering and a passion for the oil and gas industry, Kristoffer is a valuable asset to any team.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <footer class="footer">
+      <div class="container text-center"><a class="cc-instagram btn btn-link" href="https://www.linkedin.com/in/kristoffer-meling-621232b4"><i class="fa fa-linkedin fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Kristoffer Meling</div>
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+      </div>
+    </footer>
+      <!--
+    <script src="{{ url_for('static', filename='/js/core/jquery.3.2.1.min.js', _external=True, _scheme='https') }}"></script>
+    <script src="{{ url_for('static', filename='/js/core/popper.min.js', _external=True, _scheme='https') }}"></script>
+    <script src="{{ url_for('static', filename='/js/core/bootstrap.min.js', _external=True, _scheme='https') }}"></script>
+    <script src="{{ url_for('static', filename='/js/now-ui-kit.js', _external=True, _scheme='https') }}"></script>
+    <script src="{{ url_for('static', filename='/js/aos.js', _external=True, _scheme='https') }}"></script>
+    <script src="{{ url_for('static', filename='/scripts/main.js', _external=True, _scheme='https') }}"></script>
+-->
+
+      <script src="https://kmeling.info/static/js/core/jquery.3.2.1.min.js"></script>
+      <script src="https://kmeling.info/static/js/core/popper.min.js"></script>
+      <script src="https://kmeling.info/static/js/core/bootstrap.min.js"></script>
+      <script src="https://kmeling.info/static/js/now-ui-kit.js"></script>
+      <script src="https://kmeling.info/static/js/aos.js"></script>
+      <script src="https://kmeling.info/static/scripts/main.js"></script>
+
+  <script>
+  // Function to calculate age based on the birthdate
+  function calculateAge(birthdate) {
+    const today = new Date();
+    const birthDate = new Date(birthdate);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+
+    return age;
+  }
+
+  // Set the birthdate in the format 'YYYY-MM-DD'
+  const birthdate = '1993-05-15';
+
+  // Get the element by ID
+  const ageElement = document.getElementById('age');
+
+  // Update the content of the element with the calculated age
+  ageElement.textContent = calculateAge(birthdate);
+</script>
+
+    </div>
+  </body>
+</html>
